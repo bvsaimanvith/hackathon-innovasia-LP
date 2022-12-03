@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>LearnNplay</title>
+        <link rel="stylesheet" href="input.css">
+        <style>
+        body{
+            background-image:"bg.png" ;
+        }
+        table, th, td {
+  border-collapse: collapse;
+}
+
+table.center {
+  margin-left: auto; 
+  margin-right: auto;
+}
+        .button{
+                background-color: mediumseagreen;
+            border: 2px solid black;
+            color: white;
+            padding: 5px 100px;
+            display: inline-block;
+            font-size: 20px;
+            margin: 80px 160px;
+            cursor: pointer;
+            border-radius: 12px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="min-h-screen flex items-center justify-center px-16">
+            <div class="relative w-full">
+              <div class="absolute py-1 top-32 left-4 w-72 h-72 bg-blue-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob"></div>
+              <div class="absolute py-1 top-32 left-10 w-72 h-72 bg-yellow-300 rounded-full mix-blend-multiply filter blur-xl opacity-80 animate-blob animation-delay-2000"></div>
+              <div class="absolute -bottom-8 py-1 left-20 w-72 h-72 bg-pink-300 rounded-full mix-blend-multiply filter blur-xl opacity-80 animate-blob animation-delay-4000"></div>
+              <div class="absolute -bottom-8 py-1 -right-4 w-72 h-72 bg-purple-300 rounded-full mix-blend-multiply filter blur-xl opacity-80 animate-blob"></div>
+              <header class="text-gray-600 body-font">
+              <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+                <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-white bg-indigo-500 rounded-lg">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M12 6.042A8.967 8.967 0 006 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 016 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 016-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0018 18a8.967 8.967 0 00-6 2.292m0-14.25v14.25" />
+                  </svg>          
+                  <span class="ml-3 text-2xl">Learn&Play</span>
+                </a></header>
+        <table>
+        <tr>
+        <td>
+        <table>
+        <tr><td><h1 style="color: mediumseagreen; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;text-align: center;">Hi,folks.Welcome to LearNplay</h1></td></tr>
+        <tr><td><h1 style="color:rgb(255, 113, 11);font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;text-align: center;">Play simple games and learn along!</h1></td></tr>
+        </table>
+        </td>
+    </tr>
+    </table>
+    <hr size="3" color="gray">
+        <table class="center">
+            
+        <tr><td><a href="chess.html"><button class="button"><strong>Play Chess</strong></button></a></td>
+        <td><a href="tictactoe.py"><button class="button"><strong>Tic-Tac-Toe</button></a></td>
+        </tr>
+        <tr>
+            <td><img class="rounded-lg" src="https://wallpaperaccess.com/full/1307130.jpg" alt="Chess" width="700" height="400"></td>
+            <td><img class="rounded-lg" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Tic_tac_toe.svg/1200px-Tic_tac_toe.svg.png" alt="tictactoe" width="700" height="400"></td>
+        </tr>
+    </table>
+            </div></div>
+    </body>
+</html>
